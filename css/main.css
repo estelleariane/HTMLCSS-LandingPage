@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
     cursor: pointer;
     border: 0;
     padding: 6px 12px;
-    border-radius: 3px
+    border-radius: 3px;
     line-height: 1.4;
   }
   .btn-default {
@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
   
   .form-control {
     display: block;
-    padding:  6px 12px
+    padding:  6px 12px;
     border: 1px solid #a0a0a0;
     color: #8598a2;
     line-height: 1.4;
@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
     max-width: 100%;
   }
   .hero {
-  background-image: hero.jpg;
+  background-image: url('img/hero.jpg');
   height: 400px;
   background-size: cover;
   background-position: center;
@@ -132,22 +132,22 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
   }
   .banner {
   margin: 55px 15px;
-  width: 100%auto;
+  width: 100%;
   border-top:1px solid #a0a0a0;
   border-bottom: 1px solid #a0a0a0;
   padding: 25px 0;
   }
   .banner img {
-    width: 250px
+    width: 250px;
   }
   .banner-text {
     font-size: 30px;
   font-weight: 700;
-  text-transform: uppercase ;
+  text-transform: uppercase;
   line-height: 1;
   text-align: center;
   }
-  >div :last-child .banner {
+  div :last-child .banner {
     font-size: 16px;
     font-weight: 400;
     margin-top: 5px;
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
   }
   .full-banner-image {
     flex:  0 0 58.333333%;
-    background-image: vista.jpg;
+    background-image: url('img/vista.jpg');
     background-size: cover;
     background-position: top center; 
     min-height: 400px; 
@@ -260,8 +260,9 @@ display: block;
     margin-bottom: 15px;
   }
   a {
+  
     color: white;
-    text-transform: uppercase;#
+    text-transform: uppercase;
     font-size: 12px;
     padding: 0 0 4px;
     text-decoration: underline;
@@ -276,16 +277,16 @@ display: block;
     background: 23px 23px center;
   }
   .twitter {
-background-image: twitter.svg;
+background-image: url('img/twitter.svg');
   }
   .facebook {
-    background-image: facebook.svg;
+    background-image: url('img/facebook.svg');
   }
   .instagram {
-    background-image: instagram.svg;
+    background-image: url('img/instagram.svg');
   }
   .pinterest {
-    background-image: pinterest.svg;
+    background-image: url('img/pinterest.svg');
   }
   .newsletter .link-header  {
     font-size: 12px;
@@ -335,7 +336,7 @@ background-image: twitter.svg;
   font-size: 12px;
   text-align: center;
 }
-  .....
+ 
   /***************************************/
   
 
