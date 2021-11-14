@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
     max-width: 100%;
   }
   .hero {
-  background-image: url('img/hero.jpg');
+  background-image: url('../img/hero.jpg');
   height: 400px;
   background-size: cover;
   background-position: center;
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
   }
   .full-banner-image {
     flex:  0 0 58.333333%;
-    background-image: url('img/vista.jpg');
+    background-image: url('../img/vista.jpg');
     background-size: cover;
     background-position: top center; 
     min-height: 400px; 
@@ -277,16 +277,16 @@ display: block;
     background: 23px 23px center;
   }
   .twitter {
-background-image: url('img/twitter.svg');
+background-image: url('../img/twitter.svg');
   }
   .facebook {
-    background-image: url('img/facebook.svg');
+    background-image: url('../img/facebook.svg');
   }
   .instagram {
-    background-image: url('img/instagram.svg');
+    background-image: url('../img/instagram.svg');
   }
   .pinterest {
-    background-image: url('img/pinterest.svg');
+    background-image: url('../img/pinterest.svg');
   }
   .newsletter .link-header  {
     font-size: 12px;
