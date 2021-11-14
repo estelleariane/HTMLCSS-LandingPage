@@ -241,26 +241,27 @@ display: block;
     z-index: 1;
   }
   footer {
+    display: flex;
     flex-wrap: wrap;
     position: relative;
     z-index: 0;
     min-height: 330px;
-    background-color: black;
-  }
-  :after {
-    content: "";
-  }
+    background-color: black}
+ 
   footer:after {
+    content: "";
     background-color: #a0a0a0;
     width: 75%;
     position: absolute;
-    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     z-index: -1;
   }
-  .list {
+  .lists {
     flex: 0 0 75%;
-    margin: 30px 15px;
-    padding: 40px 0;
+    padding: 40px 15px;
   }
   .link-header {
     text-transform: uppercase;
@@ -268,13 +269,15 @@ display: block;
     font-weight: 700;
     margin-bottom: 15px;
   }
-  a {
+  footer a {
   
     color: white;
     text-transform: uppercase;
     font-size: 12px;
     padding: 0 0 4px;
-    text-decoration: underline;
+  }
+  footer a:hover {
+      text-decoration: underline;
   }
   .social ul li {
     display: inline-block;
@@ -283,7 +286,8 @@ display: block;
     display: block;
     width: 23px;
     height: 23px;
-    background: 23px 23px center;
+    background: 23px 23px;
+    background-position: center;
   }
   .twitter {
 background-image: url('../img/twitter.svg');
@@ -325,7 +329,7 @@ background-image: url('../img/twitter.svg');
     color: #e5e5e5;
     font-size: 16px;
   }
-  .logo{
+  .ps img {
     max-width: 230px;
   }
 .demo {
