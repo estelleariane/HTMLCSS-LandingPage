@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
   line-height: 1;
   text-align: center;
   }
-  .banner-text > div :last-child {
+  .banner-text > div:last-child {
     font-size: 16px;
     font-weight: 400;
     margin-top: 5px;
