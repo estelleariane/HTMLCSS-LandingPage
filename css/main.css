@@ -116,19 +116,23 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
   background-size: cover;
   background-position: center;
   text-transform: uppercase;}
-  .hero div h1 {
+  .hero h1 {
     position: relative;
+    left: -30px;
   }
-  .hero div h2 {
+  .hero h2 {
+  color: #faa541;} 
+
+  .hero h1 .hero h2 {
     font-size: 63px;
     font-weight: 700;
     line-height: 0.9;
   }
-  .hero div p {
+  .hero p {
     letter-spacing: 2px;
     font-weight: 700;
     font-size: 21px;
-    margin: 0 0 0 10px;
+    margin:  0 0 10px;
   }
   .banner {
   margin: 55px 15px;
@@ -147,7 +151,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
   line-height: 1;
   text-align: center;
   }
-  div :last-child .banner {
+  .banner-text > div :last-child {
     font-size: 16px;
     font-weight: 400;
     margin-top: 5px;
