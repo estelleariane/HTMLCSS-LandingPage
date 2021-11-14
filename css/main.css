@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
   background-image: url('../img/hero.jpg');
   height: 400px;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   text-transform: uppercase;
 }
   .hero h1 {
